@@ -3,17 +3,20 @@
 
 @font-face {
 	font-family: 'fzyt';
- src:url(方正姚体.TTF);
+ src:url('fonts/方正姚体.TTF');
 }
+
 @font-face {
 	font-family: 'ysjt';
- src :url(方正颜宋简体-中.TTF);
+ src :url('fonts/方正颜宋简体-中.TTF');
 }
 
 * {
 	margin: 0;
 	padding: 0;
 }
+
+
 div.person {
 	height: 200px;
 	background-color: #788585;
@@ -33,14 +36,24 @@ div.fengmian {
 }
 div.content {
 	width: 600px;
-	height: 500px;
+	height: 600px;
 	background: #eeeeee;
 	position: fixed;
 	left: 50%;
-	top: 80px;
+	top: 10%;
 	margin-left: -300px;
 	display: none;
+	padding: 30px;
 }
+
+.content h3{
+	color:  #6f6866;
+}
+
+.content p.title{
+	color:  #6f6866;
+}
+
 
 div.select{
 	margin-top: 10px;
@@ -114,7 +127,14 @@ div>p.checked-tag{
 	border-bottom:solid #788585 4px;
 	color: #788585;
 }
-s
+
+.close{
+	position: absolute;
+	top:40px;
+	right:20px ;
+	cursor: pointer;
+
+}
 
 .col-xs-5ths, .col-sm-5ths, .col-md-5ths, .col-lg-5ths {
 	position: relative;
@@ -155,7 +175,6 @@ s
 .col-md-1ths {
 	width: 10%;
 	margin-left: 12px;
-
 }
 }
 
