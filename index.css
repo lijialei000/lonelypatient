@@ -3,11 +3,11 @@
 
 @font-face {
 	font-family: 'fzyt';
- src:url(fonts/方正姚体.TTF);
+ src:url(方正姚体.TTF);
 }
 @font-face {
 	font-family: 'ysjt';
- src :url(fonts/方正颜宋简体-中.TTF);
+ src :url(方正颜宋简体-中.TTF);
 }
 
 * {
